@@ -1,16 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
-
-
-
-
-
+const MiFooter= (props) => (
+	//React.createElement('h1',{className: 'text-center' },'Titulo')
+	<footer>
+	{props.copyright}
+	</footer>
+	
+);
+export default MiFooter;
 
 /*
 import React from 'react';
@@ -25,7 +22,7 @@ const MiPrimerComponente = () => (
 
 ReactDOM.render(
 	<MiPrimerComponente />//componente debe tener mayuscula
-	//React.createElement(MiPrimerComponente,null,null),
+	//React.createElement(M=iPrimerComponente,null,null),
 	,document.getElementById('root')
 );
 */

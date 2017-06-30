@@ -1,16 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const MiTitutlo= (props) => (
+	//React.createElement('h1',{className: 'text-center' },'Titulo')
+	<h1>
+	{props.title}
+	</h1>
+	
+);
 
-
-
-
-
+export default MiTitutlo;
 
 /*
 import React from 'react';
@@ -25,7 +23,7 @@ const MiPrimerComponente = () => (
 
 ReactDOM.render(
 	<MiPrimerComponente />//componente debe tener mayuscula
-	//React.createElement(MiPrimerComponente,null,null),
+	//React.createElement(M=iPrimerComponente,null,null),
 	,document.getElementById('root')
 );
 */
