@@ -3,9 +3,9 @@ import React from 'react';
 const MiFooter= (props) => (
 	//React.createElement('h1',{className: 'text-center' },'Titulo')
 	<footer>
-	{props.copyright}
+	<p className="text-center">{props.copyright}</p>
 	</footer>
-	
+
 );
 export default MiFooter;
 
@@ -17,7 +17,7 @@ const MiPrimerComponente = () => (
 	//React.createElement('div',{className: 'text-center' },'Hola mundo')
 	<div className="text-center">
 		Hola Mundo
-	</div>	
+	</div>
 );
 
 ReactDOM.render(

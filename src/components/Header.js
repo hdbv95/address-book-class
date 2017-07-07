@@ -2,10 +2,10 @@ import React from 'react';
 
 const MiTitutlo= (props) => (
 	//React.createElement('h1',{className: 'text-center' },'Titulo')
-	<h1>
+	<h1 className="text-center">
 	{props.title}
 	</h1>
-	
+
 );
 
 export default MiTitutlo;
@@ -18,7 +18,7 @@ const MiPrimerComponente = () => (
 	//React.createElement('div',{className: 'text-center' },'Hola mundo')
 	<div className="text-center">
 		Hola Mundo
-	</div>	
+	</div>
 );
 
 ReactDOM.render(
